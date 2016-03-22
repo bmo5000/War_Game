@@ -21,10 +21,10 @@ def test():
 	return "Something is down there you should" '<a href= "/test3"> Go down there! </a>'
 @app.route('/test3')
 def test2():
-	return "There's treasure! you should" ' <a href= "/test4"> Leave it there and turn around</a> '  '<a href= "/test5"> Pick it up!</a>'
+	return "There's treasure! You should" ' <a href= "/test4"> Leave it there and turn around</a> '  '<a href= "/test5"> Pick it up!</a>'
 @app.route('/test4')
 def test4():
-	return "you walked away you are done. :)" '<a href = "/"> Restart</a>'
+	return "you walked away. You are done. :)" '<a href = "/"> Restart</a>'
 
 @app.route('/test5')
 def test5():
@@ -37,7 +37,7 @@ def test7():
 	return "You ran away with the treasure! You won!" ' <a href ="/"> Restart</a> '
 @app.route ('/test8')
 def test8():
-	return "The pirate have a gun!" ' <a href = "/test10">Run Away!</a> ' ' <a href = "/test11"> Take the gun </a> '
+	return "The pirate has a gun!" ' <a href = "/test10">Run Away!</a> ' ' <a href = "/test11"> Take the gun </a> '
 @app.route('/test9')
 def test9():
 	return "You found your way out but the treasure is Gone :(" ' <a href = "/"> Restart</a> '
